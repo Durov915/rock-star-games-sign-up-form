@@ -260,6 +260,66 @@ body {
     right: -20px;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        grid-template-rows: auto 82px; /* Adjust the grid template rows for smaller screens */
+    }
+
+    .login-form {
+        max-width: 80%; /* Adjust the maximum width of the login form for smaller screens */
+    }
+
+    .logo {
+        margin: 21px auto 2px auto; /* Center the logo for smaller screens */
+    }
+
+    .txtb input {
+        outline: none; /* Remove the outline on smaller screens for better styling */
+    }
+
+    .forgot-signin-container input {
+        width: 100%; /* Make the Sign In button full-width for smaller screens */
+    }
+
+    .bottom-container h3 {
+        font-size: 16px; /* Decrease the font size for the sign-in using section */
+    }
+
+    .sm-login {
+        flex-direction: column; /* Stack the sign-in using icons for smaller screens */
+    }
+
+    .sm-login a {
+        width: 100%;
+        margin: 5px 0; /* Adjust margins for smaller screens */
+    }
+
+    .create-account {
+        margin: 20px 0; /* Adjust the margin for the create account section */
+    }
+
+    .chapcha {
+        top: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 15vh; /* Adjust the height for smaller screens */
+    }
+
+    .img {
+        display: none; /* Hide the image in the chapcha section for smaller screens */
+    }
+
+    .recpara {
+        top: 4px; /* Adjust the top position for the recpara text */
+        left: 0;
+    }
+
+    .copyright {
+        font-size: 10px; /* Decrease the font size for the copyright text */
+    }
+}
+
 .copyright {
     color: #999;
     font-size: 12px;
